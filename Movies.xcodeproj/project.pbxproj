@@ -23,7 +23,6 @@
 		41AD2B2A2A40A28500F5D829 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41AD2B292A40A28500F5D829 /* Preview Assets.xcassets */; };
 		41AD2B382A40A43200F5D829 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AD2B372A40A43200F5D829 /* MainView.swift */; };
 		41DA5BC42A40BCE300CBB924 /* BiometricAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA5BC32A40BCE300CBB924 /* BiometricAuth.swift */; };
-		41DA5BC62A40BD8C00CBB924 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA5BC52A40BD8C00CBB924 /* UIDevice+Extension.swift */; };
 		41DA5BC82A40BF8C00CBB924 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA5BC72A40BF8C00CBB924 /* UIView+Extension.swift */; };
 		41DA5BCA2A40C4FD00CBB924 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA5BC92A40C4FD00CBB924 /* Show.swift */; };
 		41DA5BCE2A40C53600CBB924 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA5BCD2A40C53600CBB924 /* Schedule.swift */; };
@@ -31,7 +30,6 @@
 		41DA5BD22A40C58400CBB924 /* MediaImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA5BD12A40C58400CBB924 /* MediaImage.swift */; };
 		41DA5BD52A40C86000CBB924 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA5BD42A40C86000CBB924 /* MainViewModel.swift */; };
 		41DA5BD82A40C9BD00CBB924 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA5BD72A40C9BD00CBB924 /* NetworkError.swift */; };
-		41DA5BDC2A41015B00CBB924 /* ShowsParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA5BDB2A41015B00CBB924 /* ShowsParameters.swift */; };
 		41DA5BDF2A41154300CBB924 /* ShowRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA5BDE2A41154300CBB924 /* ShowRowView.swift */; };
 		41DA5BE22A4137A100CBB924 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA5BE12A4137A100CBB924 /* DetailView.swift */; };
 		41DA5BE52A41483E00CBB924 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA5BE42A41483E00CBB924 /* DetailViewModel.swift */; };
@@ -75,7 +73,6 @@
 		41AD2B292A40A28500F5D829 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		41AD2B372A40A43200F5D829 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		41DA5BC32A40BCE300CBB924 /* BiometricAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuth.swift; sourceTree = "<group>"; };
-		41DA5BC52A40BD8C00CBB924 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
 		41DA5BC72A40BF8C00CBB924 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		41DA5BC92A40C4FD00CBB924 /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
 		41DA5BCD2A40C53600CBB924 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
@@ -83,7 +80,6 @@
 		41DA5BD12A40C58400CBB924 /* MediaImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaImage.swift; sourceTree = "<group>"; };
 		41DA5BD42A40C86000CBB924 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		41DA5BD72A40C9BD00CBB924 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
-		41DA5BDB2A41015B00CBB924 /* ShowsParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsParameters.swift; sourceTree = "<group>"; };
 		41DA5BDE2A41154300CBB924 /* ShowRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRowView.swift; sourceTree = "<group>"; };
 		41DA5BE12A4137A100CBB924 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		41DA5BE42A41483E00CBB924 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
@@ -150,7 +146,6 @@
 				419437DF2A40A9CA0039E4C7 /* Behaviour */,
 				419437E22A40AA0C0039E4C7 /* Encodable+Extension.swift */,
 				419437E62A40AA7B0039E4C7 /* String+Extension.swift */,
-				41DA5BC52A40BD8C00CBB924 /* UIDevice+Extension.swift */,
 				41DA5BC72A40BF8C00CBB924 /* UIView+Extension.swift */,
 				41DA5BE82A41676500CBB924 /* Binding+Extension.swift */,
 				41DA5C0A2A41AC8700CBB924 /* Sequence+Extension.swift */,
@@ -262,7 +257,6 @@
 			children = (
 				41DA5C0D2A41EA4700CBB924 /* App Lock */,
 				41DA5BFA2A416FE600CBB924 /* Person */,
-				41DA5BD92A41013C00CBB924 /* QueryParameters */,
 				41DA5BD62A40C9AB00CBB924 /* Errors */,
 				41DA5BCB2A40C52100CBB924 /* Show */,
 				419437DB2A40A9790039E4C7 /* Application */,
@@ -305,22 +299,6 @@
 				41DA5BD72A40C9BD00CBB924 /* NetworkError.swift */,
 			);
 			path = Errors;
-			sourceTree = "<group>";
-		};
-		41DA5BD92A41013C00CBB924 /* QueryParameters */ = {
-			isa = PBXGroup;
-			children = (
-				41DA5BDA2A41014500CBB924 /* Shows */,
-			);
-			path = QueryParameters;
-			sourceTree = "<group>";
-		};
-		41DA5BDA2A41014500CBB924 /* Shows */ = {
-			isa = PBXGroup;
-			children = (
-				41DA5BDB2A41015B00CBB924 /* ShowsParameters.swift */,
-			);
-			path = Shows;
 			sourceTree = "<group>";
 		};
 		41DA5BDD2A41152F00CBB924 /* ShowRow */ = {
@@ -614,7 +592,6 @@
 				41DA5C042A417C7700CBB924 /* PeopleRowView.swift in Sources */,
 				41DA5C072A41856600CBB924 /* EpisodeView.swift in Sources */,
 				41DA5C162A41F51C00CBB924 /* ShowRowViewModel.swift in Sources */,
-				41DA5BDC2A41015B00CBB924 /* ShowsParameters.swift in Sources */,
 				41DA5BF92A416FBB00CBB924 /* PeopleViewModel.swift in Sources */,
 				41DA5BEC2A416AA900CBB924 /* MainTabView.swift in Sources */,
 				41DA5C0B2A41AC8700CBB924 /* Sequence+Extension.swift in Sources */,
@@ -626,7 +603,6 @@
 				41DA5C012A41737000CBB924 /* PeopleDetailView.swift in Sources */,
 				41AD2B232A40A28300F5D829 /* MoviesApp.swift in Sources */,
 				419437D02A40A6A00039E4C7 /* BackendResponse.swift in Sources */,
-				41DA5BC62A40BD8C00CBB924 /* UIDevice+Extension.swift in Sources */,
 				419437E52A40AA4B0039E4C7 /* Constants.swift in Sources */,
 				41DA5BE72A4161E400CBB924 /* DetailHeaderView.swift in Sources */,
 			);
